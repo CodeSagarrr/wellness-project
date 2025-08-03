@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
       return [
         {
           source :"/v1/:path*",
-          destination : "http://localhost:8080/v1/:path*"
+          destination : "https://wellness-project.onrender.com/v1/:path*"
         }
       ]
     }
